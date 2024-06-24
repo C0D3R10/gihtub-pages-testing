@@ -4,5 +4,8 @@ let userName
 document.getElementById("b3").onclick = function(){
     userName = document.getElementById("input1").value;
     document.getElementById("h35").textContent = `hello ${userName}`
+    window.prompt("information recieved")
 }
+
+let userInput = window.prompt("Enter Info")
 
